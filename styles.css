@@ -343,7 +343,6 @@ body, html {
   padding: 12px 40px;
   font-size: 0.9rem;
   font-family: 'Montserrat', sans-serif;
-  text-transform: lowercase;
   letter-spacing: 0.1em;
   cursor: pointer;
   align-self: flex-start;
