@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Adrian Jaramillo | Portraits</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="styles.css">
+</head>
+<body class="gallery-page">
+
+  <nav class="site-nav">
+    <a href="index.html" class="back-link">&#8592;</a>
+    <a href="https://www.instagram.com/by.adrianj/" target="_blank" rel="noopener noreferrer">Instagram</a>
+    <a href="https://www.linkedin.com/in/adjaramillo" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+    <a href="mailto:adrianjara.photo@gmail.com">Email</a>
+  </nav>
+
+  <header class="gallery-header">
+    <h1>PORTRAITS</h1>
+  </header>
+
+  <main class="bento-grid" id="gallery-container">
+  </main>
+
+  <div id="imageOverlay" class="overlay">
+    <span id="closeBtn" class="close-button">&times;</span>
+    <img id="expandedImage" class="overlay-content">
+  </div>
+
+  <footer class="site-footer">
+    <div class="footer-content">
+      <p>&copy; 2026 Adrian Jaramillo</p>
+    </div>
+  </footer>
+
+  <script>
+    const container = document.getElementById('gallery-container');
+    
+    // Change this number to match the exact amount of portrait photos you have
+    const totalPhotos = 5; 
+    
+    // Overlay elements
+    const overlay = document.getElementById('imageOverlay');
+    const expandedImage = document.getElementById('expandedImage');
+    const closeBtn = document.getElementById('closeBtn');
+
+    // Step 1: Create an array of numbers
+    let photoNumbers = [];
+    for (let i = 1; i <= totalPhotos; i++) {
+      photoNumbers.push(i);
+    }
+
+    // Step 2: Shuffle the array (Fisher-Yates algorithm)
+    for (let i = photoNumbers.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      let temp = photoNumbers[i];
+      photoNumbers[i] = photoNumbers[j];
+      photoNumbers[j] = temp;
+    }
+
+    // Step 3: Loop through the randomized array to build the grid
+    for (let i = 0; i < photoNumbers.length; i++) {
+      const currentPhotoNumber = photoNumbers[i];
+      
+      const div = document.createElement('div');
+      div.className = 'grid-item';
+      
+      // Create the image element directly
+      const img = document.createElement('img');
+      img.src = `images/portraits-images/AdrianJaramilloPortraits${currentPhotoNumber}.webp`;
+      img.alt = `Adrian Jaramillo Portrait ${currentPhotoNumber}`;
+      img.style.cursor = 'pointer';
+      
+      // Detect orientation on load to span two columns if wide
+      img.onload = function() {
+        if (this.naturalWidth > this.naturalHeight) {
+          div.classList.add('span-wide');
+        }
+      };
+      
+      // Attach the overlay trigger immediately
+      img.onclick = function() {
+        overlay.style.display = "block";
+        expandedImage.src = this.src;
+      };
+
+      div.appendChild(img);
+      container.appendChild(div);
+    }
+
+    // Overlay closing logic
+    closeBtn.onclick = function() {
+      overlay.style.display = "none";
+    }
+
+    overlay.onclick = function(event) {
+      if (event.target === overlay) {
+        overlay.style.display = "none";
+      }
+    }
+  </script>
+
+</body>
+</html>
