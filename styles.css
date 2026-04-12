@@ -617,7 +617,7 @@ body, html {
   }
 
   .portfolio-section {
-    height: 33.3vh;
+    height: 40vh;
     min-height: 220px; /* Lowers the minimum height so sections can actually shrink */
   }
 
@@ -628,10 +628,7 @@ body, html {
 
   .portfolio-section .view-button {
     padding: 6px 20px;
-    font-size: 0.7rem;
-  }
-   .hero-portrait {
-    bottom: 45px; /* Increased from 30px to force the overlap */
+    font-size: 1rem;
   }
 }
 
