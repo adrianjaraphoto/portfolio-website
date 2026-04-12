@@ -113,6 +113,9 @@ body, html {
   width: auto;
   z-index: 5; 
   pointer-events: none; 
+  /* Add these two lines inside your .hero-portrait blocks */
+  -webkit-mask-image: linear-gradient(to bottom, black 78%, transparent 100%);
+  mask-image: linear-gradient(to bottom, black 78%, transparent 100%);
 }
 
 .hero-header p {
