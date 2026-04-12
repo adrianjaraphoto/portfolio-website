@@ -505,3 +505,130 @@ body, html {
     grid-column: span 1; 
   }
 }
+
+/* =========================================
+   11. MOBILE OVERRIDES (MAX-WIDTH: 600PX)
+   ========================================= */
+@media (max-width: 600px) {
+  
+  /* Shrink the nav bar so it fits on one line */
+  .site-nav {
+    top: 20px;
+    padding: 8px 20px;
+    gap: 15px;
+  }
+
+  .site-nav a {
+    font-size: 0.75rem;
+  }
+
+  /* Move the back button closer to the corner */
+ .back-link {
+    position: fixed; /* Keeps the button in view during scroll */
+    bottom: 30px; 
+    left: 20px;
+    top: auto; /* Essential to override the desktop top: 40px setting */
+    width: 50px; /* Larger tap target for fingers */
+    height: 50px;
+    background-color: rgba(17, 17, 17, 0.9); /* Semi-transparent to feel less heavy */
+    border: 1px solid #333;
+    z-index: 1000; /* Highest priority layer */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5); /* Adds contrast against your photos */
+  }
+
+  /* Fix the hero text layout */
+  .hero-header p {
+    margin-top: -120px; /* Reduces the massive upward pull for shorter screens */
+    font-size: 0.8rem;
+    margin-bottom: 10px;
+  }
+
+  .hero-header h1 {
+    font-size: 2.2rem; /* Forces the name to stay within the screen width */
+    letter-spacing: 0.15em;
+  }
+
+  .last-name {
+    font-size: 1.2em; /* Keeps the hierarchy but at a smaller scale */
+  }
+
+  /* Adjust the portrait height to leave room for text */
+  .hero-portrait {
+    height: 50vh;
+    bottom: 30px;
+  }
+
+  /* Adjust gallery headers */
+  .gallery-header {
+    padding-top: 100px;
+  }
+
+  .gallery-header h1 {
+    font-size: 1.5rem;
+    letter-spacing: 0.15em;
+    margin-bottom: 5px;
+  }
+
+  .gallery-header .fr-text {
+    font-size: 0.9rem;
+    margin-top: 0;
+  }
+  .site-footer {
+    padding: 40px 20px; /* Reduces excessive vertical space on mobile */
+  }
+
+  .legal-links {
+    justify-content: center;
+    gap: 15px; /* Slightly tighter gap to ensure it fits on one line */
+  }
+
+  .legal-links a {
+    font-size: 0.65rem; /* Prevents overlap on very narrow screens */
+  }
+
+  .legal-container {
+    padding: 0 15px; /* Adds a bit of breathing room on small screens */
+  }
+
+.legal-section h2 {
+    font-size: 0.85rem; /* Keeps section titles legible but not overwhelming */
+    letter-spacing: 0.05em;
+    line-height: 1.4;
+    padding-bottom: 8px;
+    margin-bottom: 12px;
+  }
+  
+  .legal-section p {
+    font-size: 0.8rem; /* Slightly larger text for readability on small screens */
+    line-height: 1.6;
+  }
+
+  .legal-section .fr-text {
+    font-size: 0.75rem; /* Keeps the translation slightly smaller to maintain hierarchy */
+    line-height: 1.6;
+  }
+
+  .footer-content p {
+    text-align: center; /* Forces the multi-line copyright text to center */
+    font-size: 0.6rem;
+    line-height: 1.6;
+    max-width: 280px; /* Prevents the text from stretching too wide */
+    margin: 0 auto;
+  }
+
+  .portfolio-section {
+    height: 33.3vh;
+    min-height: 220px; /* Lowers the minimum height so sections can actually shrink */
+  }
+
+  .portfolio-section h2 {
+    font-size: 1.2rem; /* Scales down the category titles for the smaller space */
+    margin-bottom: 10px;
+  }
+
+  .portfolio-section .view-button {
+    padding: 6px 20px;
+    font-size: 0.7rem;
+  }
+}
+
