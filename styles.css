@@ -16,16 +16,18 @@ body, html {
 }
 
 .site-nav a {
-  color: #fff;
+  color: #a0a0a0;
   text-decoration: none;
   margin: 0 10px;
   font-size: 0.8rem;
   letter-spacing: 0.05em;
   font-family: 'Montserrat', sans-serif;
+  transition: color 0.3s ease;
 }
 
 .site-nav a:hover {
-  text-decoration: underline;
+  color: #ffffff;
+  text-decoration: none
 }
 
 .hero-header {
