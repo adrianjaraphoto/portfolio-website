@@ -630,5 +630,8 @@ body, html {
     padding: 6px 20px;
     font-size: 0.7rem;
   }
+   .hero-portrait {
+    bottom: 45px; /* Increased from 30px to force the overlap */
+  }
 }
 
