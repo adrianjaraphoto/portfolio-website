@@ -406,7 +406,6 @@ body, html {
 }
 
 .legal-section p {
-text-transform: uppercase;
   margin: 5px 0;
   font-size: 0.95rem;
 }
@@ -414,6 +413,10 @@ text-transform: uppercase;
 .fr-text {
   font-style: italic;
   color: #aaaaaa; 
+}
+
+.gallery-header .fr-text {
+   text-transform: uppercase;
 }
 
 /* =========================================
@@ -584,6 +587,8 @@ text-transform: uppercase;
   .gallery-header .fr-text {
     font-size: 0.9rem;
     margin-top: 0;
+   text-transform: uppercase;
+
   }
   
   .site-footer {
