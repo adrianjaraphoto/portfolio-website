@@ -43,30 +43,6 @@ body, html {
   color: #ffffff;
 }
 
-.back-link {
-  position: absolute;
-  top: 40px; 
-  left: 40px; 
-  width: 45px;
-  height: 45px;
-  background-color: #111111;
-  border: 1px solid #2a2a2a;
-  border-radius: 50%; 
-  color: #888888;
-  text-decoration: none;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 1.2rem;
-  transition: color 0.3s ease, border-color 0.3s ease;
-  z-index: 999;
-}
-
-.back-link:hover {
-  color: #ffffff;
-  border-color: #555555; 
-}
-
 /* =========================================
    3. SHARED COMPONENTS
    ========================================= */
@@ -570,19 +546,6 @@ body, html {
 
   .site-nav a {
     font-size: 0.75rem;
-  }
-
- .back-link {
-    position: fixed; 
-    bottom: 30px; 
-    left: 20px;
-    top: auto; 
-    width: 50px; 
-    height: 50px;
-    background-color: rgba(17, 17, 17, 0.9); 
-    border: 1px solid #333;
-    z-index: 1000; 
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5); 
   }
 
    .hero-header p {
