@@ -551,7 +551,7 @@ body, html {
   }
 
    .hero-header p {
-    margin-top: -140px; /* Increased negative margin to pull the text block higher */
+    margin-top: 280px; /* Increased negative margin to pull the text block higher */
     font-size: 0.8rem;
     margin-bottom: 10px;
   }
@@ -567,7 +567,7 @@ body, html {
 
   .hero-portrait {
     height: 55vh; 
-    bottom: 80px; 
+    bottom: 170px; 
   }
 
   .gallery-header {
