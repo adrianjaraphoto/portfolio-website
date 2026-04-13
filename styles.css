@@ -585,8 +585,8 @@ body, html {
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5); 
   }
 
-  .hero-header p {
-    margin-top: -80px; 
+   .hero-header p {
+    margin-top: -140px; /* Increased negative margin to pull the text block higher */
     font-size: 0.8rem;
     margin-bottom: 10px;
   }
