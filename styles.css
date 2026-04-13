@@ -272,8 +272,8 @@ body, html {
   height: auto;
   display: block;
   object-fit: cover;
-  -webkit-mask-image: linear-gradient(to bottom, black 50%, transparent 95%);
-  mask-image: linear-gradient(to bottom, black 50%, transparent 95%);
+  -webkit-mask-image: linear-gradient(to bottom, black 78%, transparent 95%);
+  mask-image: linear-gradient(to bottom, black 78%, transparent 95%);
 }
 
 .about-text {
