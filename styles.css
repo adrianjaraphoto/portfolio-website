@@ -406,6 +406,7 @@ body, html {
 }
 
 .legal-section p {
+text-transform: uppercase;
   margin: 5px 0;
   font-size: 0.95rem;
 }
