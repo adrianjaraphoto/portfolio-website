@@ -105,15 +105,14 @@ body, html {
 
 .hero-portrait {
   position: absolute;
-  bottom: 50px; 
+  bottom: 120px; 
   left: 50%;
   transform: translateX(-50%); 
-  height: 60vh; 
+  height: 65vh; 
   max-height: 600px;
   width: auto;
   z-index: 5; 
   pointer-events: none; 
-  /* Add these two lines inside your .hero-portrait blocks */
   -webkit-mask-image: linear-gradient(to bottom, black 78%, transparent 100%);
   mask-image: linear-gradient(to bottom, black 78%, transparent 100%);
 }
@@ -245,17 +244,17 @@ body, html {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%); /* Pulls the image exactly into the dead center */
+  transform: translate(-50%, -50%);
   display: block;
-  max-width: 90vw; /* Uses viewport width to ensure it respects screen edges */
-  max-height: 85vh; /* Leaves a little room for the close button */
-  margin: 0; /* Deletes the margin that was breaking the layout */
-  object-fit: contain; /* Ensures vertical photos don't stretch */
+  max-width: 90vw; 
+  max-height: 85vh; 
+  margin: 0; 
+  object-fit: contain; 
 }
 
 .close-button {
   position: absolute;
-  top: 40px; /* Matches the vertical alignment of the back button */
+  top: 40px; 
   right: 40px; 
   width: 45px;
   height: 45px;
@@ -266,18 +265,19 @@ body, html {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 2rem; /* Sized specifically for the 'x' character */
+  font-size: 2rem; 
   font-weight: 300;
   cursor: pointer;
   transition: color 0.3s ease, border-color 0.3s ease;
   z-index: 1001; 
-  line-height: 0; /* Prevents the text baseline from pushing the x off-center */
+  line-height: 0; 
 }
 
 .close-button:hover {
   color: #ffffff;
   border-color: #555555;
 }
+
 /* =========================================
    7. ABOUT PAGE
    ========================================= */
@@ -374,7 +374,7 @@ body, html {
 .submit-button {
   background: transparent;
   border: 1px solid #fff;
-   border-radius: 50px;
+  border-radius: 50px;
   color: #fff;
   padding: 12px 40px;
   font-size: 0.9rem;
@@ -434,7 +434,20 @@ body, html {
 
 .fr-text {
   font-style: italic;
-  color: #aaaaaa; /* Dims the translation slightly to establish a clear visual hierarchy */
+  color: #aaaaaa; 
+}
+
+/* =========================================
+   8.6 HOMEPAGE SECTION OVERRIDES
+   ========================================= */
+#about, 
+#contact {
+  padding-top: 80px; 
+}
+
+#about .gallery-header, 
+#contact .gallery-header {
+  padding-top: 0; 
 }
 
 /* =========================================
@@ -549,7 +562,6 @@ body, html {
    ========================================= */
 @media (max-width: 600px) {
   
-  /* Shrink the nav bar so it fits on one line */
   .site-nav {
     top: 20px;
     padding: 8px 20px;
@@ -560,43 +572,39 @@ body, html {
     font-size: 0.75rem;
   }
 
-  /* Move the back button closer to the corner */
  .back-link {
-    position: fixed; /* Keeps the button in view during scroll */
+    position: fixed; 
     bottom: 30px; 
     left: 20px;
-    top: auto; /* Essential to override the desktop top: 40px setting */
-    width: 50px; /* Larger tap target for fingers */
+    top: auto; 
+    width: 50px; 
     height: 50px;
-    background-color: rgba(17, 17, 17, 0.9); /* Semi-transparent to feel less heavy */
+    background-color: rgba(17, 17, 17, 0.9); 
     border: 1px solid #333;
-    z-index: 1000; /* Highest priority layer */
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5); /* Adds contrast against your photos */
+    z-index: 1000; 
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5); 
   }
 
-  /* Fix the hero text layout */
   .hero-header p {
-    margin-top: -120px; /* Reduces the massive upward pull for shorter screens */
+    margin-top: -80px; 
     font-size: 0.8rem;
     margin-bottom: 10px;
   }
 
   .hero-header h1 {
-    font-size: 2.2rem; /* Forces the name to stay within the screen width */
+    font-size: 2.2rem; 
     letter-spacing: 0.15em;
   }
 
   .last-name {
-    font-size: 1.2em; /* Keeps the hierarchy but at a smaller scale */
+    font-size: 1.2em; 
   }
 
-  /* Adjust the portrait height to leave room for text */
   .hero-portrait {
-    height: 50vh;
-    bottom: 30px;
+    height: 55vh; 
+    bottom: 80px; 
   }
 
-  /* Adjust gallery headers */
   .gallery-header {
     padding-top: 100px;
   }
@@ -611,25 +619,26 @@ body, html {
     font-size: 0.9rem;
     margin-top: 0;
   }
+  
   .site-footer {
-    padding: 40px 20px; /* Reduces excessive vertical space on mobile */
+    padding: 40px 20px; 
   }
 
   .legal-links {
     justify-content: center;
-    gap: 15px; /* Slightly tighter gap to ensure it fits on one line */
+    gap: 15px; 
   }
 
   .legal-links a {
-    font-size: 0.65rem; /* Prevents overlap on very narrow screens */
+    font-size: 0.65rem; 
   }
 
   .legal-container {
-    padding: 0 15px; /* Adds a bit of breathing room on small screens */
+    padding: 0 15px; 
   }
 
-.legal-section h2 {
-    font-size: 0.85rem; /* Keeps section titles legible but not overwhelming */
+  .legal-section h2 {
+    font-size: 0.85rem; 
     letter-spacing: 0.05em;
     line-height: 1.4;
     padding-bottom: 8px;
@@ -637,48 +646,66 @@ body, html {
   }
   
   .legal-section p {
-    font-size: 0.8rem; /* Slightly larger text for readability on small screens */
+    font-size: 0.8rem; 
     line-height: 1.6;
   }
 
   .legal-section .fr-text {
-    font-size: 0.75rem; /* Keeps the translation slightly smaller to maintain hierarchy */
+    font-size: 0.75rem; 
     line-height: 1.6;
   }
 
   .footer-content p {
-    text-align: center; /* Forces the multi-line copyright text to center */
+    text-align: center; 
     font-size: 0.6rem;
     line-height: 1.6;
-    max-width: 280px; /* Prevents the text from stretching too wide */
+    max-width: 280px; 
     margin: 0 auto;
   }
 
   .portfolio-section {
-    height: 40vh;
-    min-height: 220px; /* Lowers the minimum height so sections can actually shrink */
+    height: 33.3vh;
+    min-height: 220px; 
   }
 
   .portfolio-section h2 {
-    font-size: 1.2rem; /* Scales down the category titles for the smaller space */
+    font-size: 1.2rem; 
     margin-bottom: 10px;
   }
 
   .portfolio-section .view-button {
     padding: 6px 20px;
-    font-size: 1rem;
+    font-size: 0.7rem;
   }
-   .close-button {
+
+  .close-button {
     top: 20px;
     right: 20px;
-    width: 40px; /* Slightly smaller for mobile */
+    width: 40px; 
     height: 40px;
     font-size: 1.8rem;
   }
 
-   .hero-portrait {
-    height: 50vh; /* Increased from 50vh */
-    bottom: 40px; /* Increased from 30px to force the overlap */
+  /* Section Spacing Overrides for Homepage Stack */
+  #about, 
+  #contact {
+    padding-top: 40px; 
+  }
+
+  #about .gallery-header, 
+  #contact .gallery-header {
+    padding-top: 20px; 
+    padding-bottom: 0; 
+    margin-bottom: 30px; 
+  }
+
+  .about-container {
+    margin-bottom: 40px; 
+    gap: 20px; 
+  }
+
+  .contact-container {
+    margin-bottom: 40px; 
+    gap: 30px; 
   }
 }
-
