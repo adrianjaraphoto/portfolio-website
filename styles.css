@@ -94,12 +94,12 @@ body, html {
 }
 
 .hero-header p {
-  margin-top: -220px; 
+  margin-top: 200px; 
   margin-bottom: 20px;
   margin-right: -0.2em; 
   letter-spacing: 0.2em;
   font-size: 1rem;
-  z-index: 4;
+  z-index: 7;
   text-align: center;
 }
 
