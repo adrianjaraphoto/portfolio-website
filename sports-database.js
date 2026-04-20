@@ -87,7 +87,7 @@ const photoDatabase = [
       rawFilename: "AdrianJaramilloSports-raw11.webp",
       title: "Knee Juggling",
       description: "A player in white athletic gear maintains focus while balancing a star patterned football on his knee.",
-      hasRaw: false
+      hasRaw: true
     },
     {
       id: 12,
@@ -111,7 +111,7 @@ const photoDatabase = [
       rawFilename: "AdrianJaramilloSports-raw14.webp",
       title: "Pitch Presence",
       description: "A wide shot features a man in a white training kit walking across a green field framed by a goal post.",
-      hasRaw: false
+      hasRaw: true
     },
     {
       id: 15,
