@@ -5,40 +5,40 @@ const photoDatabase = [
       id: 1,
       filename: "AdrianJaramilloPortraits1.webp",
       rawFilename: "AdrianJaramilloPortraits-raw1.webp",
-      title: "Morning Market",
-      description: "The contrast between the shadows of the cathedral and the early morning vendors setting up their stalls in Place Kléber.",
+      title: "Friendly Portrait 1",
+      description: "A smiling woman wearing a tan Carhartt jacket and distinctive silver earrings poses for a portrait in front of the Palais Universitaire in Strasbourg.",
       hasRaw: true
     },
     {
       id: 2,
       filename: "AdrianJaramilloPortraits2.webp",
       rawFilename: "AdrianJaramilloPortraits-raw2.webp",
-      title: "Petite France Reflection",
-      description: "A calm reflection of the half-timbered houses on the Ill river during dusk.",
-      hasRaw: false
+      title: "Friendly Portrait 2",
+      description: "A man wearing glasses and a scarf smiles with his eyes closed under warm red lighting at the Queen Elizabeth bar in Strasbourg.",
+      hasRaw: true
     },
     {
       id: 3,
       filename: "AdrianJaramilloPortraits3.webp",
       rawFilename: "AdrianJaramilloPortraits-raw3.webp",
-      title: "Cathedral Shadows",
-      description: "Harsh midday light cutting through the intricate gothic facade of Notre-Dame de Strasbourg.",
+      title: "Friendly Portrait 3",
+      description: "A woman with glasses and a varsity jacket smiles for a night portrait at the Gallia tram station in Strasbourg.",
       hasRaw: true
     },
     {
       id: 4,
       filename: "AdrianJaramilloPortraits4.webp",
       rawFilename: "AdrianJaramilloPortraits-raw4.webp",
-      title: "Cobblestone Commute",
-      description: "A cyclist navigating the damp cobblestones of the old town during the morning rush.",
+      title: "Friendly Portrait 4",
+      description: "A black and white night portrait captures a woman with glasses and a varsity jacket making a playful or mock-surprised expression at the Gallia tram station in Strasbourg.",
       hasRaw: true
     },
     {
       id: 5,
       filename: "AdrianJaramilloPortraits5.webp",
       rawFilename: "AdrianJaramilloPortraits-raw5.webp",
-      title: "Vauban Dam Sights",
-      description: "Panoramic view of the Ponts Couverts taken from the terrace of the Barrage Vauban under heavy clouds.",
+      title: "Portrait 1",
+      description: "A woman in a trench coat holding a smartphone is framed by golden autumn leaves near the Gallia tram station in Strasbourg.",
       hasRaw: false
     },
     /* {
