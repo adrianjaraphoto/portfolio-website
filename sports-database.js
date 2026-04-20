@@ -1,3 +1,5 @@
+const imageFolder = "images/sports-images/";
+
 const photoDatabase = [
     {
       id: 1,
