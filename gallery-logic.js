@@ -21,7 +21,7 @@ for (let i = 0; i < photoDatabase.length; i++) {
   div.className = 'grid-item';
   
   const img = document.createElement('img');
-  img.src = `images/places-images/${photoData.filename}`;
+  img.src = `${imageFolder}${photoData.filename}`;
   img.alt = photoData.title;
   img.style.cursor = 'pointer';
   
@@ -36,7 +36,7 @@ for (let i = 0; i < photoDatabase.length; i++) {
     
     isShowingRaw = false;
     currentEditedSrc = this.src;
-    currentRawSrc = `images/places-images/${photoData.rawFilename}`;
+    currentRawSrc = `${imageFolder}${photoData.rawFilename}`;
     
     expandedImage.src = currentEditedSrc;
     overlayTitle.textContent = photoData.title;
