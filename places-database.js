@@ -31,7 +31,7 @@ const photoDatabase = [
       rawFilename: "AdrianJaramilloStreet-raw4.webp",
       title: "Cobblestone Commute",
       description: "A cyclist navigating the damp cobblestones of the old town during the morning rush.",
-      hasRaw: true
+      hasRaw: false
     },
     {
       id: 5,
@@ -39,7 +39,7 @@ const photoDatabase = [
       rawFilename: "AdrianJaramilloStreet-raw5.webp",
       title: "Vauban Dam Sights",
       description: "Panoramic view of the Ponts Couverts taken from the terrace of the Barrage Vauban under heavy clouds.",
-      hasRaw: false
+      hasRaw: true
     },
     {
       id: 6,
@@ -127,7 +127,7 @@ const photoDatabase = [
       rawFilename: "AdrianJaramilloStreet-raw16.webp",
       title: "Neustadt Grandeur",
       description: "The wide, imposing German imperial architecture of the Neustadt district bathed in harsh sunlight.",
-      hasRaw: false
+      hasRaw: true
     },
     {
       id: 17,
