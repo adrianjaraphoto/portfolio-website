@@ -44,7 +44,7 @@ for (let i = 0; i < photoDatabase.length; i++) {
     
     if (photoData.hasRaw) {
       toggleBtn.style.display = "inline-block";
-      toggleBtn.textContent = "View Raw";
+      toggleBtn.textContent = "View Before";
     } else {
       toggleBtn.style.display = "none";
     }
@@ -58,10 +58,10 @@ toggleBtn.onclick = function() {
   isShowingRaw = !isShowingRaw;
   if (isShowingRaw) {
     expandedImage.src = currentRawSrc;
-    toggleBtn.textContent = "View Edited";
+    toggleBtn.textContent = "View After";
   } else {
     expandedImage.src = currentEditedSrc;
-    toggleBtn.textContent = "View Raw";
+    toggleBtn.textContent = "View Before";
   }
 };
 
