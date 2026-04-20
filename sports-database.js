@@ -78,7 +78,7 @@ const photoDatabase = [
       filename: "AdrianJaramilloSports10.webp",
       rawFilename: "AdrianJaramilloSports-raw10.webp",
       title: "Gutenberg Musician",
-      description: "A Portraits violinist silhouetted against the brightly lit carousel at Place Gutenberg.",
+      description: "A Sports violinist silhouetted against the brightly lit carousel at Place Gutenberg.",
       hasRaw: true
     },
     {
@@ -136,5 +136,77 @@ const photoDatabase = [
       title: "Hidden Courtyard",
       description: "A quiet, secluded courtyard in the historical center, featuring an ancient well and creeping vines.",
       hasRaw: false
-    },*/
+    },
+    {
+      id: 18,
+      filename: "AdrianJaramilloSports18.webp",
+      rawFilename: "AdrianJaramilloSports-raw18.webp",
+      title: "Pigeon Flight",
+      description: "A flock of pigeons scattering abruptly in front of the ornate sandstone arches of the cathedral.",
+      hasRaw: true
+    },
+    {
+      id: 19,
+      filename: "AdrianJaramilloSports19.webp",
+      rawFilename: "AdrianJaramilloSports-raw19.webp",
+      title: "Botanical Glass",
+      description: "Condensation on the inside of the tropical greenhouse at the University Botanical Gardens.",
+      hasRaw: true
+    },
+    {
+      id: 20,
+      filename: "AdrianJaramilloSports20.webp",
+      rawFilename: "AdrianJaramilloSports-raw20.webp",
+      title: "Quai des Bateliers",
+      description: "Pedestrians and cyclists sharing the sunlit promenade along the water at Quai des Bateliers.",
+      hasRaw: false
+    },
+    {
+      id: 21,
+      filename: "AdrianJaramilloSports21.webp",
+      rawFilename: "AdrianJaramilloSports-raw21.webp",
+      title: "The Watcher",
+      description: "Candid portrait of an elderly man leaning out of his window, observing the Sports life below.",
+      hasRaw: true
+    },
+    {
+      id: 22,
+      filename: "AdrianJaramilloSports22.webp",
+      rawFilename: "AdrianJaramilloSports-raw22.webp",
+      title: "Canal Locks",
+      description: "Water rushing through the heavy wooden gates of the historic locks in Petite France.",
+      hasRaw: true
+    },
+    {
+      id: 23,
+      filename: "AdrianJaramilloSports23.webp",
+      rawFilename: "AdrianJaramilloSports-raw23.webp",
+      title: "Market Day Colors",
+      description: "Vibrant local produce stacked high at a busy weekend outdoor market stall.",
+      hasRaw: false
+    },
+    {
+      id: 24,
+      filename: "AdrianJaramilloSports24.webp",
+      rawFilename: "AdrianJaramilloSports-raw24.webp",
+      title: "Rooftop Horizons",
+      description: "A sea of steep, pitched roofs with terra cotta tiles stretching out toward the horizon.",
+      hasRaw: true
+    },
+    {
+      id: 25,
+      filename: "AdrianJaramilloSports25.webp",
+      rawFilename: "AdrianJaramilloSports-raw25.webp",
+      title: "Winter Market Glow",
+      description: "The warm, festive illumination of the wooden chalets during the Christkindelsmärik.",
+      hasRaw: true
+    },
+    {
+      id: 26,
+      filename: "AdrianJaramilloSports26.webp",
+      rawFilename: "AdrianJaramilloSports-raw26.webp",
+      title: "Bridge Shadows",
+      description: "Long, dramatic shadows cast by pedestrians walking across the Pont du Corbeau at sunset.",
+      hasRaw: false
+    }, */
 ];
