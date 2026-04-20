@@ -29,12 +29,42 @@
   <main class="bento-grid" id="gallery-container">
   </main>
 
-  <div id="imageOverlay" class="overlay">
+<div id="imageOverlay" class="overlay">
     <span id="closeBtn" class="close-button">&times;</span>
-    <img id="expandedImage" class="overlay-content">
+    <div class="overlay-layout">
+      <div class="overlay-image-container">
+        <img id="expandedImage" class="overlay-content">
+      </div>
+      <div class="overlay-info-panel">
+        <h2 id="overlayTitle"></h2>
+        <p id="overlayDesc"></p>
+        <p id="overlaySettings" class="settings-text"></p>
+        <button id="toggleImageBtn" class="view-button">View Raw</button>
+      </div>
+    </div>
   </div>
 
   <footer class="site-footer">
+    <div class="footer-content">
+      
+      <div class="footer-socials">
+        <a href="https://www.instagram.com/by.adrianj/" target="_blank" rel="noopener noreferrer">Instagram</a>
+        <a href="https://www.linkedin.com/in/adjaramillo" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a href="mailto:adrianjara.photo@gmail.com">Email</a>
+      </div>
+
+      <div class="legal-links">
+        <a href="mentions-legales.html">Mentions Légales</a>
+        <a href="privacy.html">Privacy Policy</a>
+      </div>
+
+      <p>&copy; 2026 Adrian Jaramillo. Tous Droits Réservés.</p>
+    </div>
+  </footer>
+  <script src="places-database.js"></script>
+  <script src="gallery-logic.js"></script>
+</body>
+</html>  <footer class="site-footer">
     <div class="footer-content">
       
       <div class="footer-socials">
