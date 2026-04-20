@@ -3,114 +3,48 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Adrian Jaramillo | Portfolio</title>
-  
+<title>Adrian Jaramillo | Places</title>
+    
 <link rel="icon" type="image/png" href="favicon-white.png" media="(prefers-color-scheme: dark)">
 <link rel="icon" type="image/png" href="favicon-black.png" media="(prefers-color-scheme: light)">
   
+<link rel="stylesheet" href="styles.css">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
   
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://adrianjaramillo.com/">
-<meta property="og:title" content="Adrian Jaramillo | Photography Portfolio">
-<meta property="og:description" content="Photographer based in Strasbourg, specializing in travel, portraiture, and sports photography.">
-<meta property="og:image" content="https://adrianjaramillo.com/images/hero-portrait.webp">
-
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Adrian Jaramillo | Photography Portfolio">
-<meta name="twitter:description" content="Photographer based in Strasbourg, specializing in travel, portraiture, and sports photography.">
-<meta name="twitter:image" content="https://adrianjaramillo.com/images/hero-portrait.webp">
-  
-<link rel="stylesheet" href="styles.css">
 </head>
-<body>
-<a href="#" class="floating-to-top">&#8593;</a>
-  
+<body class="gallery-page">
+  <a href="#" class="floating-to-top">&#8593;</a>
   <nav class="site-nav">
-    <a href="#places">Work</a>
-    <a href="#about">About</a>
-    <a href="#contact">Contact</a>
+    <a href="index.html">Work</a>
+    <a href="index.html#about">About</a>
+    <a href="index.html#contact">Contact</a>
   </nav>
 
-<header class="hero-header" id="home">
-    <h1>
-    <span class="first-name">ADRIAN</span><br>
-    <span class="last-name">JARAMILLO</span>
-    </h1>
-    <p>Photography Portfolio</p>
-
-    <img src="images/hero-portrait.webp" alt="Adrian Jaramillo" class="hero-portrait">
+  <header class="gallery-header">
+    <h1>PLACES</h1>
   </header>
 
-  <main>
-    <section class="portfolio-section" id="places" style="background-image: url('images/places-images/Background.webp');">
-      <h2>PLACES</h2>
-      <a href="places.html" class="view-button">view</a>
-    </section>
-
-    <section class="portfolio-section" id="sports" style="background-image: url('images/sports-images/Background.webp');">
-      <h2>SPORTS</h2>
-      <a href="sports.html" class="view-button">view</a>
-    </section>
-
-    <section class="portfolio-section" id="portrait" style="background-image: url('images/portraits-images/Background.webp');">
-      <h2>PORTRAITS</h2>
-      <a href="portraits.html" class="view-button">view</a>
-    </section>
-
-   <!-- <section class="portfolio-section" id="food" style="background-image: url('images/food-images/Background.webp');">
-      <h2>FOOD</h2>
-      <a href="food.html" class="view-button">view</a>
-    </section> -->
-
-    <section id="about" class="gallery-page">
-      <header class="gallery-header">
-        <h2>ABOUT</h2>
-      </header>
-      <div class="about-container">
-        <div class="about-image">
-          <img src="images/hero-portrait.webp" alt="Adrian Jaramillo">
-        </div>
-        <div class="about-text">
-          <p>I am a photographer based in Strasbourg, France, specializing in capturing authentic moments across travel, portraiture, and sports.</p>
-          <p>My work is driven by a passion for visual storytelling and a constant pursuit of the perfect light. Whether I am shooting a high-speed sports event or a quiet portrait, my goal is to create compelling, timeless images.</p>
-          <p>Available for freelance projects and collaborations.</p>
-        </div>
-      </div>
-    </section>
-
-    <section id="contact" class="gallery-page">
-      <header class="gallery-header">
-        <h2>CONTACT</h2>
-      </header>
-      <div class="contact-container">
-        <div class="contact-info">
-          <h2>Let's create something together</h2>
-          <p>I am available for freelance work, commissions, and collaborations. Fill out the form or reach out directly via email to discuss your project.</p>
-        </div>
-
-        <div class="contact-form-wrapper">
-          <form action="https://formspree.io/f/mqegrayq" method="POST" class="contact-form">
-            <div class="input-group">
-              <input type="text" id="name" name="name" placeholder="Name" required>
-            </div>
-            <div class="input-group">
-              <input type="email" id="email" name="email" placeholder="Email" required>
-            </div>
-            <div class="input-group">
-              <textarea id="message" name="message" placeholder="Message" rows="6" required></textarea>
-            </div>
-            <button type="submit" class="submit-button">Send</button>
-          </form>
-        </div>
-      </div>
-    </section>
-
+  <main class="bento-grid" id="gallery-container">
   </main>
 
-<footer class="site-footer">
+<div id="imageOverlay" class="overlay">
+    <span id="closeBtn" class="close-button">&times;</span>
+    <div class="overlay-layout">
+      <div class="overlay-image-container">
+        <img id="expandedImage" class="overlay-content">
+      </div>
+      <div class="overlay-info-panel">
+        <h2 id="overlayTitle"></h2>
+        <p id="overlayDesc"></p>
+        <p id="overlaySettings" class="settings-text"></p>
+        <button id="toggleImageBtn" class="view-button">View Raw</button>
+      </div>
+    </div>
+  </div>
+
+  <footer class="site-footer">
     <div class="footer-content">
       
       <div class="footer-socials">
@@ -127,6 +61,7 @@
       <p>&copy; 2026 Adrian Jaramillo. Tous Droits Réservés.</p>
     </div>
   </footer>
-
+  <script src="places-database.js"></script>
+  <script src="gallery-logic.js"></script>
 </body>
 </html>
