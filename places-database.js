@@ -211,8 +211,8 @@ const photoDatabase = [
     },
     {
       id: 27,
-      filename: "AdrianJaramilloStreet26.webp",
-      rawFilename: "AdrianJaramilloStreet-raw26.webp",
+      filename: "AdrianJaramilloStreet27.webp",
+      rawFilename: "AdrianJaramilloStreet-raw27.webp",
       title: "Bridge Shadows",
       description: "Long, dramatic shadows cast by pedestrians walking across the Pont du Corbeau at sunset.",
       hasRaw: true
