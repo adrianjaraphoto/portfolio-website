@@ -15,7 +15,7 @@ const photoDatabase = [
       rawFilename: "AdrianJaramilloStreet-raw2.webp",
       title: "Petite France Reflection",
       description: "A calm reflection of the half-timbered houses on the Ill river during dusk.",
-      hasRaw: false
+      hasRaw: true
     },
     {
       id: 3,
@@ -63,7 +63,7 @@ const photoDatabase = [
       rawFilename: "AdrianJaramilloStreet-raw8.webp",
       title: "Orangerie Autumn",
       description: "Golden hour light filtering through the yellowing leaves along the pathways of Parc de l'Orangerie.",
-      hasRaw: false
+      hasRaw: true
     },
     {
       id: 9,
@@ -79,7 +79,7 @@ const photoDatabase = [
       rawFilename: "AdrianJaramilloStreet-raw10.webp",
       title: "Gutenberg Musician",
       description: "A street violinist silhouetted against the brightly lit carousel at Place Gutenberg.",
-      hasRaw: true
+      hasRaw: false
     },
     {
       id: 11,
@@ -95,7 +95,7 @@ const photoDatabase = [
       rawFilename: "AdrianJaramilloStreet-raw12.webp",
       title: "Evening Rain",
       description: "Neon signs reflecting off deep puddles in a narrow alleyway after a sudden downpour.",
-      hasRaw: true
+      hasRaw: false
     },
     {
       id: 13,
@@ -119,7 +119,7 @@ const photoDatabase = [
       rawFilename: "AdrianJaramilloStreet-raw15.webp",
       title: "Batorama Passing",
       description: "Tourists peering out from the glass roof of a Batorama boat sliding down the Ill river.",
-      hasRaw: true
+      hasRaw: false
     },
     {
       id: 16,
@@ -127,7 +127,7 @@ const photoDatabase = [
       rawFilename: "AdrianJaramilloStreet-raw16.webp",
       title: "Neustadt Grandeur",
       description: "The wide, imposing German imperial architecture of the Neustadt district bathed in harsh sunlight.",
-      hasRaw: true
+      hasRaw: false
     },
     {
       id: 17,
@@ -143,7 +143,7 @@ const photoDatabase = [
       rawFilename: "AdrianJaramilloStreet-raw18.webp",
       title: "Pigeon Flight",
       description: "A flock of pigeons scattering abruptly in front of the ornate sandstone arches of the cathedral.",
-      hasRaw: true
+      hasRaw: false
     },
     {
       id: 19,
@@ -151,7 +151,7 @@ const photoDatabase = [
       rawFilename: "AdrianJaramilloStreet-raw19.webp",
       title: "Botanical Glass",
       description: "Condensation on the inside of the tropical greenhouse at the University Botanical Gardens.",
-      hasRaw: true
+      hasRaw: false
     },
     {
       id: 20,
@@ -159,7 +159,7 @@ const photoDatabase = [
       rawFilename: "AdrianJaramilloStreet-raw20.webp",
       title: "Quai des Bateliers",
       description: "Pedestrians and cyclists sharing the sunlit promenade along the water at Quai des Bateliers.",
-      hasRaw: false
+      hasRaw: true
     },
     {
       id: 21,
@@ -175,7 +175,7 @@ const photoDatabase = [
       rawFilename: "AdrianJaramilloStreet-raw22.webp",
       title: "Canal Locks",
       description: "Water rushing through the heavy wooden gates of the historic locks in Petite France.",
-      hasRaw: true
+      hasRaw: false
     },
     {
       id: 23,
@@ -183,7 +183,7 @@ const photoDatabase = [
       rawFilename: "AdrianJaramilloStreet-raw23.webp",
       title: "Market Day Colors",
       description: "Vibrant local produce stacked high at a busy weekend outdoor market stall.",
-      hasRaw: false
+      hasRaw: true
     },
     {
       id: 24,
@@ -207,6 +207,14 @@ const photoDatabase = [
       rawFilename: "AdrianJaramilloStreet-raw26.webp",
       title: "Bridge Shadows",
       description: "Long, dramatic shadows cast by pedestrians walking across the Pont du Corbeau at sunset.",
-      hasRaw: false
+      hasRaw: true
+    },
+    {
+      id: 27,
+      filename: "AdrianJaramilloStreet26.webp",
+      rawFilename: "AdrianJaramilloStreet-raw26.webp",
+      title: "Bridge Shadows",
+      description: "Long, dramatic shadows cast by pedestrians walking across the Pont du Corbeau at sunset.",
+      hasRaw: true
     },
 ];
