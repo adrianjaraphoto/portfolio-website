@@ -5,80 +5,80 @@ const photoDatabase = [
       id: 1,
       filename: "AdrianJaramilloStreet1.webp",
       rawFilename: "AdrianJaramilloStreet-raw1.webp",
-      title: "Morning Market",
-      description: "The contrast between the shadows of the cathedral and the early morning vendors setting up their stalls in Place Kléber.",
+      title: "Sunset",
+      description: "Two people walk along a narrow path at Quai du Général Koenig as the setting sun reflects off the river water.",
       hasRaw: true
     },
     {
       id: 2,
       filename: "AdrianJaramilloStreet2.webp",
       rawFilename: "AdrianJaramilloStreet-raw2.webp",
-      title: "Petite France Reflection",
-      description: "A calm reflection of the half-timbered houses on the Ill river during dusk.",
+      title: "Ornate",
+      description: "A black and white shot focuses on an ornate street lamp overlooking the water at Écluse A de la Petite France.",
       hasRaw: true
     },
     {
       id: 3,
       filename: "AdrianJaramilloStreet3.webp",
       rawFilename: "AdrianJaramilloStreet-raw3.webp",
-      title: "Cathedral Shadows",
-      description: "Harsh midday light cutting through the intricate gothic facade of Notre-Dame de Strasbourg.",
+      title: "Neon",
+      description: "A long exposure captures the blurred motion of a CTS tram passing vibrant neon signs at the Vox cinema.",
       hasRaw: true
     },
     {
       id: 4,
       filename: "AdrianJaramilloStreet4.webp",
       rawFilename: "AdrianJaramilloStreet-raw4.webp",
-      title: "Cobblestone Commute",
-      description: "A cyclist navigating the damp cobblestones of the old town during the morning rush.",
+      title: "Gothic",
+      description: "Pedestrians walk down the cobblestone Grande-Rue toward the fog shrouded spire of the Strasbourg Cathedral.",
       hasRaw: false
     },
     {
       id: 5,
       filename: "AdrianJaramilloStreet5.webp",
       rawFilename: "AdrianJaramilloStreet-raw5.webp",
-      title: "Vauban Dam Sights",
-      description: "Panoramic view of the Ponts Couverts taken from the terrace of the Barrage Vauban under heavy clouds.",
+      title: "Swan",
+      description: "A couple walks along the riverbank in Petite France, Strasbourg while a white swan glides through the water below.",
       hasRaw: true
     },
     {
       id: 6,
       filename: "AdrianJaramilloStreet6.webp",
       rawFilename: "AdrianJaramilloStreet-raw6.webp",
-      title: "Café Corner",
-      description: "Patrons enjoying espresso outside a corner café in the Krutenau district, framed by overhanging ivy.",
+      title: "Historic Waterfront",
+      description: "A wide view from Pont Royal captures the Ill river, tour boats, and the historic skyline near Gallia station.",
       hasRaw: true
     },
     {
       id: 7,
       filename: "AdrianJaramilloStreet7.webp",
       rawFilename: "AdrianJaramilloStreet-raw7.webp",
-      title: "Parliament Geometry",
-      description: "Modern architectural lines and glass reflections at the European Parliament building.",
+      title: "Golden",
+      description: "A person walks toward a bridge at Presqu'île André Malraux during a warm sunset that illuminates the trees.",
       hasRaw: true
     },
     {
       id: 8,
       filename: "AdrianJaramilloStreet8.webp",
       rawFilename: "AdrianJaramilloStreet-raw8.webp",
-      title: "Orangerie Autumn",
-      description: "Golden hour light filtering through the yellowing leaves along the pathways of Parc de l'Orangerie.",
+      title: "Cockpit",
+      description: "A close up shot through a car window shows the steering wheel and dashboard of a red vehicle parked in Strasbourg.",
       hasRaw: true
     },
     {
       id: 9,
       filename: "AdrianJaramilloStreet9.webp",
       rawFilename: "AdrianJaramilloStreet-raw9.webp",
-      title: "Tramway Mist",
-      description: "A modern tram emerging from a heavy winter fog crossing the Place de la République.",
+      title: "Underground",
+      description: "A person in a yellow jacket descends an escalator at the Gare Centrale Strasbourg station under cool blue lighting.",
       hasRaw: true
     },
     {
       id: 10,
       filename: "AdrianJaramilloStreet10.webp",
       rawFilename: "AdrianJaramilloStreet-raw10.webp",
-      title: "Gutenberg Musician",
-      description: "A street violinist silhouetted against the brightly lit carousel at Place Gutenberg.",
+      title: "Vox Trams",
+      description: "Two trams are stationed under the glowing red VOX sign at the cinema during a clear night in Strasbourg.",
       hasRaw: false
     },
     {
