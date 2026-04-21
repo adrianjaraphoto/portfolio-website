@@ -77,7 +77,7 @@ const photoDatabase = [
       id: 10,
       filename: "AdrianJaramilloStreet10.webp",
       rawFilename: "AdrianJaramilloStreet-raw10.webp",
-      title: "Vox Trams",
+      title: "Vox Trams I",
       description: "Two trams are stationed under the glowing red VOX sign at the cinema during a clear night in Strasbourg.",
       hasRaw: false
     },
@@ -85,7 +85,7 @@ const photoDatabase = [
       id: 11,
       filename: "AdrianJaramilloStreet11.webp",
       rawFilename: "AdrianJaramilloStreet-raw11.webp",
-      title: "Kammerzell Details",
+      title: "Langstross",
       description: "Close-up of the ornate wooden carvings and bottle-glass windows of the historic Maison Kammerzell.",
       hasRaw: false
     },
@@ -93,128 +93,128 @@ const photoDatabase = [
       id: 12,
       filename: "AdrianJaramilloStreet12.webp",
       rawFilename: "AdrianJaramilloStreet-raw12.webp",
-      title: "Evening Rain",
-      description: "Neon signs reflecting off deep puddles in a narrow alleyway after a sudden downpour.",
+      title: "Framed Colors",
+      description: "Colorful half timbered houses are visible through a stone opening at Écluse A in Petite France.",
       hasRaw: false
     },
     {
       id: 13,
       filename: "AdrianJaramilloStreet13.webp",
       rawFilename: "AdrianJaramilloStreet-raw13.webp",
-      title: "Window Baker",
-      description: "A local artisan dusting flour over fresh baguettes, captured through a slightly fogged bakery window.",
+      title: "Scooter",
+      description: "A rider on an electric scooter travels toward a bright sunset on Quai Saint Thomas.",
       hasRaw: true
     },
     {
       id: 14,
       filename: "AdrianJaramilloStreet14.webp",
       rawFilename: "AdrianJaramilloStreet-raw14.webp",
-      title: "St. Paul Spires",
-      description: "The twin spires of St. Paul's Church rising dramatically against a moody, overcast sky.",
+      title: "Rue Mercière",
+      description: "Two people look toward the ornate facade of the Strasbourg Cathedral from Rue Mercière.",
       hasRaw: false
     },
     {
       id: 15,
       filename: "AdrianJaramilloStreet15.webp",
       rawFilename: "AdrianJaramilloStreet-raw15.webp",
-      title: "Batorama Passing",
-      description: "Tourists peering out from the glass roof of a Batorama boat sliding down the Ill river.",
+      title: "Neon II",
+      description: "A modern tram passes the bright red neon sign of Cinema Vox at night.",
       hasRaw: false
     },
     {
       id: 16,
       filename: "AdrianJaramilloStreet16.webp",
       rawFilename: "AdrianJaramilloStreet-raw16.webp",
-      title: "Neustadt Grandeur",
-      description: "The wide, imposing German imperial architecture of the Neustadt district bathed in harsh sunlight.",
+      title: "Blur",
+      description: "A blurred cyclist crosses the road in front of historic buildings and a distant spire at Pont de la Fonderie.",
       hasRaw: true
     },
     {
       id: 17,
       filename: "AdrianJaramilloStreet17.webp",
       rawFilename: "AdrianJaramilloStreet-raw17.webp",
-      title: "Hidden Courtyard",
-      description: "A quiet, secluded courtyard in the historical center, featuring an ancient well and creeping vines.",
+      title: "Benjamin Zix",
+      description: "Red heart shaped locks are fastened to a metal fence overlooking the water at Place Benjamin Zix.",
       hasRaw: false
     },
     {
       id: 18,
       filename: "AdrianJaramilloStreet18.webp",
       rawFilename: "AdrianJaramilloStreet-raw18.webp",
-      title: "Pigeon Flight",
-      description: "A flock of pigeons scattering abruptly in front of the ornate sandstone arches of the cathedral.",
+      title: "Cinema I",
+      description: "People walk past the illuminated entrance and movie posters of the Cinema Vox.",
       hasRaw: false
     },
     {
       id: 19,
       filename: "AdrianJaramilloStreet19.webp",
       rawFilename: "AdrianJaramilloStreet-raw19.webp",
-      title: "Botanical Glass",
-      description: "Condensation on the inside of the tropical greenhouse at the University Botanical Gardens.",
+      title: "Heart Gate",
+      description: "A metal gate is covered in red heart shaped locks on the Pont Saint Martin in Petite France.",
       hasRaw: false
     },
     {
       id: 20,
       filename: "AdrianJaramilloStreet20.webp",
       rawFilename: "AdrianJaramilloStreet-raw20.webp",
-      title: "Quai des Bateliers",
-      description: "Pedestrians and cyclists sharing the sunlit promenade along the water at Quai des Bateliers.",
+      title: "Dockside",
+      description: "Two people sit on the ground at Presqu'île André Malraux watching the sunset reflect on the water.",
       hasRaw: true
     },
     {
       id: 21,
       filename: "AdrianJaramilloStreet21.webp",
       rawFilename: "AdrianJaramilloStreet-raw21.webp",
-      title: "The Watcher",
-      description: "Candid portrait of an elderly man leaning out of his window, observing the street life below.",
+      title: "Foggy",
+      description: "The red sandstone spire of the Strasbourg Cathedral fades into a thick blue mist.",
       hasRaw: true
     },
     {
       id: 22,
       filename: "AdrianJaramilloStreet22.webp",
       rawFilename: "AdrianJaramilloStreet-raw22.webp",
-      title: "Canal Locks",
-      description: "Water rushing through the heavy wooden gates of the historic locks in Petite France.",
+      title: "Blur II",
+      description: "A motion blur shot captures a cyclist in winter gear passing buildings on Quai Kellerman.",
       hasRaw: false
     },
     {
       id: 23,
       filename: "AdrianJaramilloStreet23.webp",
       rawFilename: "AdrianJaramilloStreet-raw23.webp",
-      title: "Market Day Colors",
-      description: "Vibrant local produce stacked high at a busy weekend outdoor market stall.",
+      title: "Badge",
+      description: "A close focus highlights the silver Mazda logo on the hood of a red vehicle in Centre Ville.",
       hasRaw: true
     },
     {
       id: 24,
       filename: "AdrianJaramilloStreet24.webp",
       rawFilename: "AdrianJaramilloStreet-raw24.webp",
-      title: "Rooftop Horizons",
-      description: "A sea of steep, pitched roofs with terra cotta tiles stretching out toward the horizon.",
+      title: "Symmetry",
+      description: "Symmetrical architecture frames a traveler walking up the stairs between two escalators at Gare Centrale.",
       hasRaw: true
     },
     {
       id: 25,
       filename: "AdrianJaramilloStreet25.webp",
       rawFilename: "AdrianJaramilloStreet-raw25.webp",
-      title: "Winter Market Glow",
-      description: "The warm, festive illumination of the wooden chalets during the Christkindelsmärik.",
+      title: "Cockpit II",
+      description: "A view through a car window reveals the interior of a vehicle parked in Place Kléber.",
       hasRaw: true
     },
     {
       id: 26,
       filename: "AdrianJaramilloStreet26.webp",
       rawFilename: "AdrianJaramilloStreet-raw26.webp",
-      title: "Bridge Shadows",
-      description: "Long, dramatic shadows cast by pedestrians walking across the Pont du Corbeau at sunset.",
+      title: "Kléber",
+      description: "A person walks across the damp pavement in Centre Ville as the skyline reflects in a puddle.",
       hasRaw: true
     },
     {
       id: 27,
       filename: "AdrianJaramilloStreet27.webp",
       rawFilename: "AdrianJaramilloStreet-raw27.webp",
-      title: "Bridge",
-      description: "Long, dramatic shadows cast by pedestrians walking across the Pont du Corbeau at sunset.",
+      title: "Dominicains",
+      description: "A man in a newsboy cap walks through a narrow passage toward the street on Rue des Dominicains.",
       hasRaw: true
     },
 ];
