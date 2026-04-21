@@ -198,15 +198,15 @@ const photoDatabase = [
       filename: "AdrianJaramilloStreet25.webp",
       rawFilename: "AdrianJaramilloStreet-raw25.webp",
       title: "Cockpit II",
-      description: "A view through a car window reveals the interior of a vehicle parked in Place Kléber.",
+      description: "A view through a car window reveals the interior of a vehicle parked in Centre Ville.",
       hasRaw: true
     },
     {
       id: 26,
       filename: "AdrianJaramilloStreet26.webp",
       rawFilename: "AdrianJaramilloStreet-raw26.webp",
-      title: "Kléber",
-      description: "A person walks across the damp pavement in Centre Ville as the skyline reflects in a puddle.",
+      title: "Kléber Refelection",
+      description: "A person walks across the damp pavement in Place Kléber as the skyline reflects in a puddle.",
       hasRaw: true
     },
     {
