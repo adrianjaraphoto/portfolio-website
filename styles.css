@@ -680,15 +680,16 @@ body, html {
   }
 
   .hero-header p {
-    margin-top: 400px;
+    margin-top: 220px;
     font-size: 0.8rem;
-    margin-bottom: 10px;
+    margin-bottom: auto;
   }
 
   .hero-header h1 {
     font-size: 2.2rem; 
     letter-spacing: 0.15em;
-    margin-top: inherit;
+    margin-top: auto;
+   margin-bottom: 60px;
   }
 
   .last-name {
@@ -697,7 +698,7 @@ body, html {
 
   .hero-portrait {
     height: 55vh; 
-    bottom: 80px; 
+    bottom: auto; 
   }
 
   .gallery-header {
