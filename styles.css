@@ -808,4 +808,7 @@ body, html {
     margin-bottom: 40px; 
     gap: 30px; 
   }
+   .about-image {
+      margin-bottom: 0px;
+   }
 }
