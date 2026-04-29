@@ -31,7 +31,7 @@ const photoDatabase = [
       rawFilename: "AdrianJaramilloSports-raw15.webp",
       title: "Kickflip",
       description: "Skateboarder performing a kickflip mid-air during golden hour in front of a modern building.",
-      hasRaw: true
+      hasRaw: false
     },
     {
       id: 5,
@@ -63,7 +63,7 @@ const photoDatabase = [
       rawFilename: "20260426-coupe-du-grand-est-schiltigheim-st-die-adrianj-raw-51.webp",
       title: "SC Schiltigheim vs St Dié - Coupe du Grand Est - 2026",
       description: "Football player in a black kit taking a corner kick at the exact moment his foot strikes the ball.",
-      hasRaw: false
+      hasRaw: true
     },
     {
       id: 9,
