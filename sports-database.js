@@ -79,7 +79,7 @@ const photoDatabase = [
       rawFilename: "AdrianJaramilloSports-raw1.webp",
       title: "Golden Air",
       description: "A skateboarder is silhouetted against the sunset while performing a high jump in front of a blue building.",
-      hasRaw: false
+      hasRaw: true
     },
     {
       id: 11,
