@@ -29,7 +29,7 @@ const photoDatabase = [
       id: 4,
       filename: "AdrianJaramilloSports15.webp",
       rawFilename: "AdrianJaramilloSports-raw15.webp",
-      title: "Kick Up",
+      title: "Kickflip",
       description: "Skateboarder performing a kickflip mid-air during golden hour in front of a modern building.",
       hasRaw: true
     },
@@ -53,7 +53,7 @@ const photoDatabase = [
       id: 7,
       filename: "AdrianJaramilloSports5.webp",
       rawFilename: "AdrianJaramilloSports-raw5.webp",
-      title: "Dribbling Motion",
+      title: "Training Shot",
       description: "Football player in a white training kit striking the ball mid-air against a clear blue sky.",
       hasRaw: true
     },
@@ -91,25 +91,25 @@ const photoDatabase = [
     },
     {
       id: 12,
-      filename: "20260426-coupe-du-grand-est-schiltigheim-st-die-adrianj-53.webp",
-      rawFilename: "20260426-coupe-du-grand-est-schiltigheim-st-die-adrianj-raw-53.webp",
-      title: "SC Schiltigheim vs St Dié - Coupe du Grand Est - 2026",
+      filename: "AdrianJaramilloSports11.webp",
+      rawFilename: "AdrianJaramilloSports-raw11.webp",
+      title: "Juggle",
       description: "Close-up of a football player's legs juggling a patterned ball in a training environment.",
       hasRaw: true
     },
     {
       id: 13,
-      filename: "20260426-coupe-du-grand-est-schiltigheim-st-die-adrianj-47.webp",
-      rawFilename: "20260426-coupe-du-grand-est-schiltigheim-st-die-adrianj-raw-47.webp",
+      filename: "20260426-coupe-du-grand-est-schiltigheim-st-die-adrianj-53.webp",
+      rawFilename: "20260426-coupe-du-grand-est-schiltigheim-st-die-adrianj-raw-53.webp",
       title: "SC Schiltigheim vs St Dié - Coupe du Grand Est - 2026",
       description: "Football player in a black kit sprinting with the ball while a defender in red trails behind him.",
       hasRaw: true
     },
     {
       id: 14,
-      filename: "AdrianJaramilloSports14.webp",
-      rawFilename: "AdrianJaramilloSports-raw14.webp",
-      title: "Pitch Presence",
+      filename: "20260426-coupe-du-grand-est-schiltigheim-st-die-adrianj-47.webp",
+      rawFilename: "20260426-coupe-du-grand-est-schiltigheim-st-die-adrianj-raw-47.webp",
+      title: "SC Schiltigheim vs St Dié - Coupe du Grand Est - 2026",
       description: "Low-angle action shot of a football player in a black kit preparing to forcefully strike the ball.",
       hasRaw: true
     },
