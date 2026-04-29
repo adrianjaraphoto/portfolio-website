@@ -51,6 +51,14 @@ const photoDatabase = [
     },
     {
       id: 7,
+      filename: "20260426-coupe-du-grand-est-schiltigheim-st-die-adrianj-16.webp",
+      rawFilename: "20260426-coupe-du-grand-est-schiltigheim-st-die-adrianj-raw-16.webp",
+      title: "SC Schiltigheim vs St Dié - Coupe du Grand Est - 2026",
+      description: "Two football players wrestling for the ball",
+      hasRaw: true
+    },
+    {
+      id: 8,
       filename: "AdrianJaramilloSports13.webp",
       rawFilename: "AdrianJaramilloSports-raw13.webp",
       title: "Training Shot",
@@ -58,7 +66,7 @@ const photoDatabase = [
       hasRaw: true
     },
     {
-      id: 8,
+      id: 9,
       filename: "20260426-coupe-du-grand-est-schiltigheim-st-die-adrianj-51.webp",
       rawFilename: "20260426-coupe-du-grand-est-schiltigheim-st-die-adrianj-raw-51.webp",
       title: "SC Schiltigheim vs St Dié - Coupe du Grand Est - 2026",
@@ -66,15 +74,31 @@ const photoDatabase = [
       hasRaw: true
     },
     {
-      id: 9,
+      id: 10,
       filename: "20260426-coupe-du-grand-est-schiltigheim-st-die-adrianj-38.webp",
       rawFilename: "20260426-coupe-du-grand-est-schiltigheim-st-die-adrianj-raw-38.webp",
       title: "SC Schiltigheim vs St Dié - Coupe du Grand Est - 2026",
       description: "Football player in a black kit dribbling the ball, framed by an out-of-focus player in red in the foreground.",
       hasRaw: true
     },
+     {
+      id: 11,
+      filename: "20260426-coupe-du-grand-est-schiltigheim-st-die-adrianj-15.webp",
+      rawFilename: "20260426-coupe-du-grand-est-schiltigheim-st-die-adrianj-raw-15.webp",
+      title: "SC Schiltigheim vs St Dié - Coupe du Grand Est - 2026",
+      description: "Close-up of a football player's boots during the match",
+      hasRaw: true
+    },
     {
-      id: 10,
+      id: 12,
+      filename: "20260426-coupe-du-grand-est-schiltigheim-st-die-adrianj-17.webp",
+      rawFilename: "20260426-coupe-du-grand-est-schiltigheim-st-die-adrianj-raw-17.webp",
+      title: "SC Schiltigheim vs St Dié - Coupe du Grand Est - 2026",
+      description: "Two football players preparing to take a freekick",
+      hasRaw: true
+    },
+    {
+      id: 13,
       filename: "AdrianJaramilloSports1.webp",
       rawFilename: "AdrianJaramilloSports-raw1.webp",
       title: "UCL ball",
@@ -82,7 +106,7 @@ const photoDatabase = [
       hasRaw: true
     },
     {
-      id: 11,
+      id: 14,
       filename: "20260426-coupe-du-grand-est-schiltigheim-st-die-adrianj-45.webp",
       rawFilename: "20260426-coupe-du-grand-est-schiltigheim-st-die-adrianj-raw-45.webp",
       title: "SC Schiltigheim vs St Dié - Coupe du Grand Est - 2026",
@@ -90,7 +114,7 @@ const photoDatabase = [
       hasRaw: true
     },
     {
-      id: 12,
+      id: 15,
       filename: "AdrianJaramilloSports11.webp",
       rawFilename: "AdrianJaramilloSports-raw11.webp",
       title: "Juggle",
@@ -98,7 +122,23 @@ const photoDatabase = [
       hasRaw: true
     },
     {
-      id: 13,
+      id: 16,
+      filename: "20260426-coupe-du-grand-est-schiltigheim-st-die-adrianj-28.webp",
+      rawFilename: "20260426-coupe-du-grand-est-schiltigheim-st-die-adrianj-raw-28.webp",
+      title: "SC Schiltigheim vs St Dié - Coupe du Grand Est - 2026",
+      description: "Starting 11",
+      hasRaw: true
+    },
+    {
+      id: 17,
+      filename: "20260426-coupe-du-grand-est-schiltigheim-st-die-adrianj-23.webp",
+      rawFilename: "20260426-coupe-du-grand-est-schiltigheim-st-die-adrianj-raw-23.webp",
+      title: "SC Schiltigheim vs St Dié - Coupe du Grand Est - 2026",
+      description: "Two football players running behind the ball on the wing",
+      hasRaw: true
+    },
+    {
+      id: 18,
       filename: "20260426-coupe-du-grand-est-schiltigheim-st-die-adrianj-53.webp",
       rawFilename: "20260426-coupe-du-grand-est-schiltigheim-st-die-adrianj-raw-53.webp",
       title: "SC Schiltigheim vs St Dié - Coupe du Grand Est - 2026",
@@ -106,7 +146,7 @@ const photoDatabase = [
       hasRaw: true
     },
     {
-      id: 14,
+      id: 19,
       filename: "20260426-coupe-du-grand-est-schiltigheim-st-die-adrianj-47.webp",
       rawFilename: "20260426-coupe-du-grand-est-schiltigheim-st-die-adrianj-raw-47.webp",
       title: "SC Schiltigheim vs St Dié - Coupe du Grand Est - 2026",
