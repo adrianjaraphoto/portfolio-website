@@ -51,10 +51,10 @@ const photoDatabase = [
     },
     {
       id: 7,
-      filename: "AdrianJaramilloSports5.webp",
-      rawFilename: "AdrianJaramilloSports-raw5.webp",
+      filename: "AdrianJaramilloSports13.webp",
+      rawFilename: "AdrianJaramilloSports-raw13.webp",
       title: "Training Shot",
-      description: "Football player in a white training kit striking the ball mid-air against a clear blue sky.",
+      description: "Football player in a blue training kit striking the ball.",
       hasRaw: true
     },
     {
