@@ -6,7 +6,7 @@ const photoDatabase = [
       filename: "20260426-coupe-du-grand-est-schiltigheim-st-die-adrianj-56.webp",
       rawFilename: "20260426-coupe-du-grand-est-schiltigheim-st-die-adrianj-raw-56.webp",
       title: "SC Schiltigheim vs St Dié - Coupe du Grand Est - 2026",
-      description: "A close up shot features a player resting a silver Nike cleat on a Champions League football over green turf.",
+      description: "Black and white portrait of a football player covering his face with his hands.",
       hasRaw: true
     },
     {
@@ -14,7 +14,7 @@ const photoDatabase = [
       filename: "20260426-coupe-du-grand-est-schiltigheim-st-die-adrianj-55.webp",
       rawFilename: "20260426-coupe-du-grand-est-schiltigheim-st-die-adrianj-raw-55.webp",
       title: "SC Schiltigheim vs St Dié - Coupe du Grand Est - 2026",
-      description: "A man in a navy long sleeve shirt and black shorts strikes a football during a bright day on an outdoor pitch.",
+      description: "Row of various sports trophies lined up on a windowsill in the sunlight.",
       hasRaw: true
     },
     {
@@ -22,15 +22,15 @@ const photoDatabase = [
       filename: "20260426-coupe-du-grand-est-schiltigheim-st-die-adrianj-7.webp",
       rawFilename: "20260426-coupe-du-grand-est-schiltigheim-st-die-adrianj-raw-7.webp",
       title: "SC Schiltigheim vs St Dié - Coupe du Grand Est - 2026",
-      description: "A man wearing a navy athletic quarter zip and black shorts walks across a green football field.",
+      description: "Football player in a red shirt shaking hands with a smiling supporter over a fence.",
       hasRaw: true
     },
     {
       id: 4,
       filename: "AdrianJaramilloSports15.webp",
       rawFilename: "AdrianJaramilloSports-raw15.webp",
-      title: "Ball Ready",
-      description: "A player in a white and black training kit stands with one foot on the ball while looking across the field.",
+      title: "Kick Up",
+      description: "Skateboarder performing a kickflip mid-air during golden hour in front of a modern building.",
       hasRaw: true
     },
     {
@@ -38,7 +38,7 @@ const photoDatabase = [
       filename: "20260426-coupe-du-grand-est-schiltigheim-st-die-adrianj-49.webp",
       rawFilename: "20260426-coupe-du-grand-est-schiltigheim-st-die-adrianj-raw-49.webp",
       title: "SC Schiltigheim vs St Dié - Coupe du Grand Est - 2026",
-      description: "A football player wearing a white Nike kit executes a powerful kick with his right foot on a sunny day.",
+      description: "Two football players in black kits actively arguing with a referee in a light blue shirt.",
       hasRaw: true
     },
     {
@@ -46,7 +46,7 @@ const photoDatabase = [
       filename: "20260426-coupe-du-grand-est-schiltigheim-st-die-adrianj-50.webp",
       rawFilename: "20260426-coupe-du-grand-est-schiltigheim-st-die-adrianj-raw-50.webp",
       title: "SC Schiltigheim vs St Dié - Coupe du Grand Est - 2026",
-      description: "A man in white athletic gear demonstrates focus while juggling a star patterned football with his knee.",
+      description: "Football player in a black kit kneeling on the grass in defeat with a red player in the background.",
       hasRaw: true
     },
     {
@@ -54,7 +54,7 @@ const photoDatabase = [
       filename: "AdrianJaramilloSports5.webp",
       rawFilename: "AdrianJaramilloSports-raw5.webp",
       title: "Dribbling Motion",
-      description: "A player in a white and black long sleeve top tracks the movement of a football during an active drill.",
+      description: "Football player in a white training kit striking the ball mid-air against a clear blue sky.",
       hasRaw: true
     },
     {
@@ -62,7 +62,7 @@ const photoDatabase = [
       filename: "20260426-coupe-du-grand-est-schiltigheim-st-die-adrianj-51.webp",
       rawFilename: "20260426-coupe-du-grand-est-schiltigheim-st-die-adrianj-raw-51.webp",
       title: "SC Schiltigheim vs St Dié - Coupe du Grand Est - 2026",
-      description: "A skateboarder catches significant air performing a trick in front of a modern building during the golden hour.",
+      description: "Football player in a black kit taking a corner kick at the exact moment his foot strikes the ball.",
       hasRaw: false
     },
     {
@@ -70,15 +70,15 @@ const photoDatabase = [
       filename: "20260426-coupe-du-grand-est-schiltigheim-st-die-adrianj-38.webp",
       rawFilename: "20260426-coupe-du-grand-est-schiltigheim-st-die-adrianj-raw-38.webp",
       title: "SC Schiltigheim vs St Dié - Coupe du Grand Est - 2026",
-      description: "A medium shot captures a man in a navy athletic top looking intently across the field during a bright day.",
+      description: "Football player in a black kit dribbling the ball, framed by an out-of-focus player in red in the foreground.",
       hasRaw: true
     },
     {
       id: 10,
       filename: "AdrianJaramilloSports1.webp",
       rawFilename: "AdrianJaramilloSports-raw1.webp",
-      title: "Golden Air",
-      description: "A skateboarder is silhouetted against the sunset while performing a high jump in front of a blue building.",
+      title: "UCL ball",
+      description: "Close-up of a football player's foot wearing a Nike boot resting on a patterned football.",
       hasRaw: true
     },
     {
@@ -86,7 +86,7 @@ const photoDatabase = [
       filename: "20260426-coupe-du-grand-est-schiltigheim-st-die-adrianj-45.webp",
       rawFilename: "20260426-coupe-du-grand-est-schiltigheim-st-die-adrianj-raw-45.webp",
       title: "SC Schiltigheim vs St Dié - Coupe du Grand Est - 2026",
-      description: "A player in white athletic gear maintains focus while balancing a star patterned football on his knee.",
+      description: "Tight shot of two football players, one in red and one in black, physically bumping shoulders to win the ball.",
       hasRaw: true
     },
     {
@@ -94,7 +94,7 @@ const photoDatabase = [
       filename: "20260426-coupe-du-grand-est-schiltigheim-st-die-adrianj-53.webp",
       rawFilename: "20260426-coupe-du-grand-est-schiltigheim-st-die-adrianj-raw-53.webp",
       title: "SC Schiltigheim vs St Dié - Coupe du Grand Est - 2026",
-      description: "A close up shot follows a player in black shorts and cleats as he approaches a football on the turf.",
+      description: "Close-up of a football player's legs juggling a patterned ball in a training environment.",
       hasRaw: true
     },
     {
@@ -102,7 +102,7 @@ const photoDatabase = [
       filename: "20260426-coupe-du-grand-est-schiltigheim-st-die-adrianj-47.webp",
       rawFilename: "20260426-coupe-du-grand-est-schiltigheim-st-die-adrianj-raw-47.webp",
       title: "SC Schiltigheim vs St Dié - Coupe du Grand Est - 2026",
-      description: "A man in a navy long sleeve shirt and black shorts prepares to strike a football with full force.",
+      description: "Football player in a black kit sprinting with the ball while a defender in red trails behind him.",
       hasRaw: true
     },
     {
@@ -110,7 +110,7 @@ const photoDatabase = [
       filename: "AdrianJaramilloSports14.webp",
       rawFilename: "AdrianJaramilloSports-raw14.webp",
       title: "Pitch Presence",
-      description: "A wide shot features a man in a white training kit walking across a green field framed by a goal post.",
+      description: "Low-angle action shot of a football player in a black kit preparing to forcefully strike the ball.",
       hasRaw: true
     },
      /* {
